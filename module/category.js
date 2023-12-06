@@ -1,5 +1,10 @@
 var categorias = {
    categorias: [
+    {
+      "id": 0,
+      "nome": "Favoritas",
+      "imagem": "caminho/para/imagem_favoritas.jpg"   
+    },
         {
           "id": 1,
           "nome": "Pizzas",
@@ -12,8 +17,8 @@ var categorias = {
         },
         {
           "id": 3,
-          "nome": "Frutas",
-          "imagem": "caminho/para/imagem_frutas.jpg"
+          "nome": "sucos naturais",
+          "imagem": "img/sucos naturais.jpg"
         },
         {
           "id": 4,

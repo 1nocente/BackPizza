@@ -7,14 +7,14 @@ var user = {
               pass: "123456",
               confirmPass: "123456",
               telefone: "11999999999",
-              localizacao: {
+              localizacao: [{
                 cidade: "São Paulo",
                 estado: "SP",
                 rua: "Rua A",
                 logradouro: "Bairro X",
                 numeroCasa: "123",
                 pais: "Brasil"
-              }
+              }]
             },
             {
               userName: "Maria da Costa",
@@ -22,14 +22,14 @@ var user = {
               pass: "654321",
               confirmPass: "654321",
               telefone: "11888888888",
-              localizacao: {
+              localizacao: [{
                 cidade: "Rio de Janeiro",
                 estado: "RJ",
                 rua: "Avenida B",
                 logradouro: "Bairro Y",
                 numeroCasa: "456",
                 pais: "Brasil"
-              }
+              }]
             },
             {
                userName: "José dos Santos",
@@ -37,14 +37,14 @@ var user = {
                pass: "1234567890",
                confirmPass: "1234567890",
                telefone: "11777777777",
-               localizacao: {
+               localizacao: [{
                  cidade: "Belo Horizonte",
                 estado: "MG",
                 rua: "Travessa C",
                 logradouro: "Bairro Z",
                 numeroCasa: "789",
                 pais: "Brasil"
-              }
+              }]
             },
             {
               userName: "Ana Paula",
@@ -52,14 +52,14 @@ var user = {
               pass: "abc123",
               confirmPass: "abc123",
               telefone: "11666666666",
-              localizacao: {
+              localizacao: [{
                 cidade: "Brasília",
                 estado: "DF",
                 rua: "Praça D",
                 logradouro: "Bairro W",
                 numeroCasa: "101",
                 pais: "Brasil"
-              }
+              }]
             },
             {
               userName: 'Pedro Henrique',
@@ -67,38 +67,18 @@ var user = {
               pass: "12345678",
               confirmPass: "12345678",
               telefone: "11555555555",
-              localizacao: {
+              localizacao: [
+                {
                 cidade: "Salvador",
                 estado: "BA",
                 rua: "Alameda E",
                 logradouro: "Bairro V",
                 numeroCasa: "202",
                 pais: "Brasil"
-              }
-            }
-        ],
-            comentarios: [
-                {
-                   userName: "João da Silva",
-                   comentario: "Muito bom!"
-                },
-                {
-                   userName: "Maria da Costa",
-                   comentario: "Ruim!"
-                },
-                {
-                   userName: "José dos Santos",
-                   comentario: "Muito ruim!"
-                },
-                {
-                   userName: "Ana Paula",
-                   comentario: "Maravilhoso!"
-                },
-                {
-                   userName: "Pedro Henrique",
-                   comentario: "Bom"
                 }
-               ]
+    ]
+            }
+        ]
         }
 
         module.exports = {
